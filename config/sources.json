@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Remote OK - Developer",
+    "url": "https://remoteok.com/remote-dev-jobs",
+    "item": "tr.job",
+    "fields": {
+      "title": ".company_and_position [itemprop='title']",
+      "company": ".companyLink h3",
+      "location": ".location",
+      "url": "a.preventLink",
+      "postedAt": ".time"
+    },
+    "urlBase": "https://remoteok.com"
+  },
+  {
+    "name": "HN - Who is hiring?",
+    "url": "https://news.ycombinator.com/submitted?id=whoishiring",
+    "item": "tr.athing",
+    "fields": {
+      "title": ".titleline a",
+      "url": ".titleline a"
+    },
+    "urlBase": "https://news.ycombinator.com"
+  }
+]
